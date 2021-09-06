@@ -1,6 +1,6 @@
 <div style="margin:0 auto;"><img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="85"/></div>
-
-<!-- [![Build Status](https://github.com/qpochlabs/feacher/workflows/Build/badge.svg)](https://github.com/qpochlabs/feacher/actions) -->
+<br><br>
+[![Build Status](https://github.com/qpochlabs/feacher/workflows/Python%20package/badge.svg)](https://github.com/qpochlabs/feacher/actions)
 [![PyPI version](https://badge.fury.io/py/feacher.svg)](https://pypi.org/project/feacher/)
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/qpochlabs/feacher/blob/master/LICENSE)
 <!-- [![Downloads](https://pepy.tech/badge/feacher/month)](https://pepy.tech/project/feacher) -->
