@@ -1,12 +1,14 @@
 <p align="center">
 <img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="85"/>
 </p>
-<hr>
+
 <p align="center">
+
 [![Build Status](https://github.com/qpochlabs/feacher/workflows/Python%20package/badge.svg)](https://github.com/qpochlabs/feacher/actions)
 [![PyPI version](https://badge.fury.io/py/feacher.svg)](https://pypi.org/project/feacher/)
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/qpochlabs/feacher/blob/master/LICENSE)
 <!-- [![Downloads](https://pepy.tech/badge/feacher/month)](https://pepy.tech/project/feacher) -->
+
 </p>
 
 
