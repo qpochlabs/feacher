@@ -2,6 +2,8 @@
     <img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="85" alt="feacher-logo"/>
 </p>
 
+<h1 align="center">Feacher</h1>
+<p align="center">Feacher is a light-weight Image feature extraction library that can help in transfer learning applications.</p>
 <p align="center">
     <img src="https://github.com/qpochlabs/feacher/workflows/Python%20package/badge.svg" alt="Python-Package"/>
     <img src="https://badge.fury.io/py/feacher.svg" alt="PyPi"/>
@@ -9,8 +11,8 @@
     <!-- <img src="https://pepy.tech/badge/feacher/month" alt="PePy-Downloads"/> -->
 </p>
 
-<h1 align="center">Feacher</h1>
-<p align="center">Feacher is a light-weight Image feature extraction library that can help in transfer learning applications.</p>
+<p></p>
+<p></p>
 
 ## Requirements
 -   PyTorch
