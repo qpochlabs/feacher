@@ -9,12 +9,12 @@ Feacher is a light-weight Image feature extraction library that can help in tran
 -   PIL
 
 ## Installation
-```
+```python
 pip install feacher
 ```
 
 ## Usage
-```
+```python
 import feacher
 
 # Path/Directory containg images 
