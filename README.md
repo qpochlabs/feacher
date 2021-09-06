@@ -9,8 +9,10 @@
     <!-- <img src="https://pepy.tech/badge/feacher/month" alt="PePy-Downloads"/> -->
 </p>
 
-# Feacher
-Feacher is a light-weight Image feature extraction library that can help in transfer learning applications.
+<p align="center">
+    <h1>Feacher</h1>
+    <p>Feacher is a light-weight Image feature extraction library that can help in transfer learning applications.</p>
+</p>
 
 ## Requirements
 -   PyTorch
