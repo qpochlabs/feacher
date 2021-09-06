@@ -1,5 +1,7 @@
 <div style="margin:0 auto;"><img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="85"/></div>
 
+![Build Status](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=pull_request)
+
 # Feacher
 Feacher is a light-weight Image feature extraction library that can help in transfer learning applications.
 
