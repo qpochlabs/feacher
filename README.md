@@ -6,7 +6,7 @@
     <img src="https://github.com/qpochlabs/feacher/workflows/Python%20package/badge.svg" alt="Python-Package"/>
     <img src="https://badge.fury.io/py/feacher.svg" alt="PyPi"/>
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-Licence"/>
-    <img src="https://pepy.tech/badge/feacher/month" alt="PePy-Downloads"/>
+    <!-- <img src="https://pepy.tech/badge/feacher/month" alt="PePy-Downloads"/> -->
 </p>
 
 # Feacher
