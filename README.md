@@ -1,11 +1,13 @@
-<img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="85"/>
+<p align="center">
+    <img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="85" alt="feacher-logo"/>
+</p>
 
-<p></p>
-
-[![Build Status](https://github.com/qpochlabs/feacher/workflows/Python%20package/badge.svg)](https://github.com/qpochlabs/feacher/actions)
-[![PyPI version](https://badge.fury.io/py/feacher.svg)](https://pypi.org/project/feacher/)
-[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/qpochlabs/feacher/blob/master/LICENSE)
-<!-- [![Downloads](https://pepy.tech/badge/feacher/month)](https://pepy.tech/project/feacher) -->
+<p align="center">
+    <img src="https://github.com/qpochlabs/feacher/workflows/Python%20package/badge.svg" alt="Python-Package"/>
+    <img src="https://badge.fury.io/py/feacher.svg" alt="PyPi"/>
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT-Licence"/>
+    <img src="https://pepy.tech/badge/feacher/month" alt="PePy-Downloads"/>
+</p>
 
 # Feacher
 Feacher is a light-weight Image feature extraction library that can help in transfer learning applications.
