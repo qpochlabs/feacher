@@ -21,7 +21,11 @@ import feacher
 path_to_images = 'images/'
 
 # Extract features and add them to a list
-image_features = feacher.extract(path_to_images, pretrained_model='resnet18', layer='avgpool', layer_size=512, resize_dim=256)
+image_features = feacher.extract(path_to_images,
+                                 pretrained_model='resnet18',
+                                 layer='avgpool',
+                                 layer_size=512,
+                                 resize_dim=256)
 
 print(image_features[0])
 ```
