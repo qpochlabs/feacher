@@ -18,7 +18,7 @@ setup(
             'torch',
             'Pillow',
             'torchvision',
-        ],        
+        ],
         keywords=['python', 'pytorch', 'torchvison', 'feature-extraction'],
         classifiers= [
             "Development Status :: 3 - Alpha",
