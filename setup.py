@@ -1,14 +1,16 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
-DESCRIPTION = 'Feacher - Image Feature Vector Extractor'
-LONG_DESCRIPTION = 'A simple PyTorch based image feature extractor using Pre-Trained Models'
+VERSION = '0.0.2' 
+DESCRIPTION = 'Feacher - An Image Feature Vector Extraction Library'
+LONG_DESCRIPTION = 'A simple PyTorch based image feature extractor using Pre-Trained Models useful for Transfer Learning applications.'
 
 setup(
         name="feacher", 
         version=VERSION,
         author="Hari Prasad",
         author_email="h4ri.prasad@gmail.com",
+        url="https://github.com/qpochlabs/feacher",
+        license="MIT",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
