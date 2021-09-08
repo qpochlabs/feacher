@@ -2,7 +2,7 @@
 <p></p>
 
 <p align="center">
-    <img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="85" alt="feacher-logo"/>
+    <img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="100" alt="feacher-logo"/>
 </p>
 
 <h1 align="center">Feacher</h1>
