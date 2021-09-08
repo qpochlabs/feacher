@@ -2,17 +2,20 @@ import torch
 from feacher import preprocess as ps
 from feacher import model as ml
 
-def feature_vector(pretrained_model, image, layer, layer_size, resize_dim):
-    model, layer = ml.Model(pretrained_model=pretrained_model, layer=layer)
+def feature_vector(pretrained_model, image, resize_dim, layer):
+    model = ml.Model(pretrained_model=pretrained_model)
     input_image = ps.image_preprocess(image, resize_dim)
-    feature_vector = torch.zeros(layer_size)
-
-    def flatten(m, i, o):
-        feature_vector.copy_(o.flatten())
-    h = layer.register_forward_hook(flatten)
+    input_batch = input_image.unsqueeze(0)
 
     with torch.no_grad():
-        model(input_image.unsqueeze(0))
-    h.remove()
+        feature_vector = None
+        
+        def hook(module_, input_, feature_vector_):
+            nonlocal feature_vector
+            feature_vector = feature_vector_
 
-    return feature_vector
+        a_hook = getattr(model, '%s' %layer).register_forward_hook(hook)        
+        model(input_batch)
+        a_hook.remove()
+        
+        return feature_vector
