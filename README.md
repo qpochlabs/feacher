@@ -3,9 +3,9 @@
 
 <p align="center">
     <img src="https://github.com/qpochlabs/feacher/blob/main/assets/logo.png" width="100" alt="feacher-logo"/>
+    <h1 align="center">Feacher</h1>
 </p>
 
-<h1 align="center">Feacher</h1>
 <p align="center">Feacher is a light-weight Image feature extraction library that can help in transfer learning applications.</p>
 <p align="center">
     <img src="https://github.com/qpochlabs/feacher/workflows/Python%20package/badge.svg" alt="Python-Package"/>
