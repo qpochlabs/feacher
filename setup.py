@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = 'Feacher - An Image Feature Vector Extraction Library'
 LONG_DESCRIPTION = 'A simple PyTorch based image feature \
                     extractor using Pre-Trained Models \
