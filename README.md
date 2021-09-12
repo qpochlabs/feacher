@@ -71,7 +71,7 @@ path_to_images = 'images/'
 image_features = feacher.extract(path_to_images,
                                  pretrained_model='vgg16',
                                  resize_dim=256,
-                                 layer=features[30])
+                                 layer='features[30]')
 
 print(image_features[0])
 ```
@@ -87,7 +87,7 @@ path_to_images = 'images/'
 image_features = feacher.extract(path_to_images,
                                  pretrained_model='alexnet',
                                  resize_dim=256,
-                                 layer=features[12])
+                                 layer='features[12]')
 
 print(image_features[0])
 ```

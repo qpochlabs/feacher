@@ -1,11 +1,13 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2' 
+VERSION = '0.0.3'
 DESCRIPTION = 'Feacher - An Image Feature Vector Extraction Library'
-LONG_DESCRIPTION = 'A simple PyTorch based image feature extractor using Pre-Trained Models useful for Transfer Learning applications.'
+LONG_DESCRIPTION = 'A simple PyTorch based image feature \
+                    extractor using Pre-Trained Models \
+                    useful for Transfer Learning applications.'
 
 setup(
-        name="feacher", 
+        name="feacher",
         version=VERSION,
         author="Hari Prasad",
         author_email="h4ri.prasad@gmail.com",
@@ -20,7 +22,7 @@ setup(
             'torchvision',
         ],
         keywords=['python', 'pytorch', 'torchvison', 'feature-extraction'],
-        classifiers= [
+        classifiers=[
             "Development Status :: 3 - Alpha",
             "Intended Audience :: Science/Research",
             "Intended Audience :: Developers",
