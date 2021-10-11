@@ -40,7 +40,7 @@ image_features = feacher.extract(path_to_images)
 print(image_features[0])
 ```
 
-### ResNet18 with other parameters example
+### ResNet18 with avg pool layer example
 ```python
 import feacher
 
